@@ -1,0 +1,16 @@
+templateFile: "report04.xlsx"
+data:
+  row: 5
+  col: 0
+  columns:
+    - name: "STT"
+    - name: "S_COMPANY_NAME"
+    - name: "S_PRODUCTION_PLAN_NAME"
+    - name: "S_HARVEST_NAME"
+    - name: "S_PRINT_COMMAND_CODE"
+    - name: "N_TEMP_NUM"
+listHeader:
+  - headerText: "Thời gian "
+    row: 2
+    col: 0
+    columnsName: "PO_DATE"

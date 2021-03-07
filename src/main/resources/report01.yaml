@@ -1,0 +1,23 @@
+templateFile: "report01.xlsx"
+data:
+  row: 7
+  col: 0
+  columns:
+    - name: "STT"
+    - name: "S_DISTRICT_NAME"
+      groupLevel: 1
+    - name: "S_WARD_NAME"
+      groupLevel: 2
+    - name: "S_COMPANY_NAME"
+    - name: "S_CONTACT_INFO"
+    - name: "S_PRODUCT_LIST"
+#    - name: "C_INFO"
+listHeader:
+  - headerText: "Tỉnh"
+    row: 3
+    col: 1
+    columnsName: "PO_PROVINCE_NAME"
+  - headerText: "Vai trò"
+    row: 4
+    col: 1
+    columnsName: "PO_BT_NAME"

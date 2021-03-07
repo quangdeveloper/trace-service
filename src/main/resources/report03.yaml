@@ -1,0 +1,20 @@
+templateFile: "report03.xlsx"
+data:
+  row: 5
+  col: 0
+  columns:
+    - name: "STT"
+    - name: "S_COMPANY_NAME"
+      groupLevel: 1
+    - name: "S_PRODUCTION_PLAN_NAME"
+      groupLevel: 2
+    - name: "S_PRODUCT_NAME"
+    - name: "S_PRODUCTION_SECTOR_NAME"
+    - name: "N_VOLUME_TON"
+    - name: "D_PLANNED_HARVEST"
+      format: "dd/MM/yyyy"
+listHeader:
+  - headerText: "Thời gian "
+    row: 2
+    col: 0
+    columnsName: "PO_DATE"

@@ -1,0 +1,31 @@
+templateFile: "report02.xlsx"
+data:
+  row: 8
+  col: 0
+  columns:
+    - name: "STT"
+    - name: "S_DISTRICT_NAME"
+      groupLevel: 1
+    - name: "S_FULL_NAME"
+      groupLevel: 2
+    - name: "S_SECTOR_NAME"
+    - name: "S_ADD_PROC"
+    - name: "N_AREA_HA"
+    - name: "N_VOLUME_TON"
+    - name: "D_PLANNED_START"
+      format: "dd/MM/yyyy"
+    - name: "D_PLANNED_HARVEST"
+      format: "dd/MM/yyyy"
+listHeader:
+  - headerText: "Tỉnh"
+    row: 3
+    col: 1
+    columnsName: "PO_PROVINCE_NAME"
+  - headerText: "Sản phẩm"
+    row: 4
+    col: 1
+    columnsName: "PO_PRD_NAME"
+  - headerText: "Doanh nghiệp"
+    row: 5
+    col: 1
+    columnsName: "PO_COMPANY_NAME"

@@ -1,0 +1,11 @@
+templateFile: "report_account_list.xlsx"
+data:
+  row: 3
+  col: 0
+  columns:
+    - name: "STT"
+    - name: "S_USER_ID"
+    - name: "S_FULL_NAME"
+    - name: "S_USER_BUSINESS_TYPE"
+    - name: "S_EMAIL"
+    - name: "S_PHONE"
